@@ -1,0 +1,644 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.19)  12 FEB 2019 00:31
+entering extended mode
+**./Tarea_No1.tex
+(Tarea_No1.tex
+LaTeX2e <2018-04-01> patch level 5
+
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.c
+ls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.cl
+o"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.
+sty"
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\latin1.de
+f"
+File: latin1.def 2018/04/06 v1.3b Input encoding file
+))
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmat
+h.sty"
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstex
+t.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen
+.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen103
+))
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy
+.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn
+.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks17
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks18
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfo
+nts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssy
+mb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graph
+icx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyva
+l.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graph
+ics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.
+sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\g
+raphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\p
+dftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listi
+ngs.sty"
+\lst@mode=\count100
+\lst@gtempboxa=\box28
+\lst@token=\toks22
+\lst@length=\count101
+\lst@currlwidth=\dimen114
+\lst@column=\count102
+\lst@pos=\count103
+\lst@lostspace=\dimen115
+\lst@width=\dimen116
+\lst@newlines=\count104
+\lst@lineno=\count105
+\lst@maxwidth=\dimen117
+
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmi
+sc.sty"
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+\c@lstnumber=\count106
+\lst@skipnumbers=\count107
+\lst@framebox=\box29
+)
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listi
+ngs.cfg"
+File: listings.cfg 2018/09/02 1.7 listings configuration
+))
+Package: listings 2018/09/02 1.7 (Carsten Heinz)
+
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color
+.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\c
+olor.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geome
+try.sty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifp
+df.sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifv
+tex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxe
+tex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count108
+\Gm@cntv=\count109
+\c@Gm@tempcnt=\count110
+\Gm@bindingoffset=\dimen118
+\Gm@wd@mp=\dimen119
+\Gm@odd@mp=\dimen120
+\Gm@even@mp=\dimen121
+\Gm@layoutwidth=\dimen122
+\Gm@layoutheight=\dimen123
+\Gm@layouthoffset=\dimen124
+\Gm@layoutvoffset=\dimen125
+\Gm@dimlist=\toks23
+
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geome
+try.cfg"))
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\natbib\natbib.
+sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip46
+\bibsep=\skip47
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count111
+)
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.
+sty"
+Package: babel 2018/09/02 3.23 The Babel package
+
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch
+.def"
+File: switch.def 2018/09/02 3.23 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.
+cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-spanish\
+spanish.ldf"
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.
+def"
+File: babel.def 2018/09/02 3.23 Babel common definitions
+\babel@savecnt=\count112
+\U@D=\dimen126
+
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbab
+el.def")
+\bbl@dirlevel=\count113
+)
+\es@quottoks=\toks24
+\es@quotdepth=\count114
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+))
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstla
+ng1.sty"
+File: lstlang1.sty 2018/09/02 1.7 listings language file
+)
+
+LaTeX Warning: Unused global option(s):
+    [openany].
+
+(Tarea_No1.aux
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+)
+\openout1 = `Tarea_No1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pd
+f.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count115
+\scratchdimen=\dimen127
+\scratchbox=\box30
+\nofMPsegments=\count116
+\nofMParguments=\count117
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen128
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
+\everyMPtoPDFconversion=\toks26
+)
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epsto
+pdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\inf
+warerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfex
+t.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvd
+efinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltx
+cmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvopt
+ions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvs
+etkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ete
+xcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifl
+uatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdf
+texcmds.sty"
+Package: pdftexcmds 2018/09/07 v0.28 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\c@lstlisting=\count121
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(85.35826pt, 702.78308pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=702.78308pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \. on input line 52.
+LaTeX Info: Redefining \% on input line 52.
+LaTeX Font Info:    Try loading font information for U+msa on input line 54.
+
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.
+fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 54.
+
+("C:\Users\Danielles\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.
+fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (Tarea1_01.py)
+Package epstopdf Info: Source file: <Tarea1_01.eps>
+(epstopdf)                    date: 2019-02-11 23:23:39
+(epstopdf)                    size: 15844 bytes
+(epstopdf)             Output file: <Tarea1_01-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-02-11 23:35:30
+(epstopdf)                    size: 11645 bytes
+(epstopdf)             Command: <epstopdf --outfile=Tarea1_01-eps-converted-to.
+pdf Tarea1_01.eps>
+(epstopdf)             \includegraphics on input line 62.
+Package epstopdf Info: Output file is already uptodate.
+<Tarea1_01-eps-converted-to.pdf, id=1, 462.72874pt x 346.29375pt>
+File: Tarea1_01-eps-converted-to.pdf Graphic file (type pdf)
+<use Tarea1_01-eps-converted-to.pdf>
+Package pdftex.def Info: Tarea1_01-eps-converted-to.pdf  used on input line 62.
+
+(pdftex.def)             Requested size: 323.90791pt x 242.40396pt.
+ [1
+
+{C:/Users/Danielles/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Tarea
+1_01-eps-converted-to.pdf>] (Tarea1_02.py)
+Package epstopdf Info: Source file: <Tarea1_02.eps>
+(epstopdf)                    date: 2019-02-11 23:22:13
+(epstopdf)                    size: 7662 bytes
+(epstopdf)             Output file: <Tarea1_02-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-02-11 23:37:45
+(epstopdf)                    size: 6219 bytes
+(epstopdf)             Command: <epstopdf --outfile=Tarea1_02-eps-converted-to.
+pdf Tarea1_02.eps>
+(epstopdf)             \includegraphics on input line 74.
+Package epstopdf Info: Output file is already uptodate.
+<Tarea1_02-eps-converted-to.pdf, id=40, 462.72874pt x 346.29375pt>
+File: Tarea1_02-eps-converted-to.pdf Graphic file (type pdf)
+<use Tarea1_02-eps-converted-to.pdf>
+Package pdftex.def Info: Tarea1_02-eps-converted-to.pdf  used on input line 74.
+
+(pdftex.def)             Requested size: 323.90791pt x 242.40396pt.
+ [2 <./Tarea1_02-eps-converted-to.pdf>] (Tarea1_03.py)
+Package epstopdf Info: Source file: <Tarea1_03.eps>
+(epstopdf)                    date: 2019-02-11 23:23:15
+(epstopdf)                    size: 5716 bytes
+(epstopdf)             Output file: <Tarea1_03-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-02-11 23:38:20
+(epstopdf)                    size: 4990 bytes
+(epstopdf)             Command: <epstopdf --outfile=Tarea1_03-eps-converted-to.
+pdf Tarea1_03.eps>
+(epstopdf)             \includegraphics on input line 86.
+Package epstopdf Info: Output file is already uptodate.
+<Tarea1_03-eps-converted-to.pdf, id=54, 462.72874pt x 346.29375pt>
+File: Tarea1_03-eps-converted-to.pdf Graphic file (type pdf)
+<use Tarea1_03-eps-converted-to.pdf>
+Package pdftex.def Info: Tarea1_03-eps-converted-to.pdf  used on input line 86.
+
+(pdftex.def)             Requested size: 323.90791pt x 242.40396pt.
+ [3 <./Tarea1_03-eps-converted-to.pdf>]
+(Tarea1_04.py)
+Package epstopdf Info: Source file: <Tarea1_04.eps>
+(epstopdf)                    date: 2019-02-11 23:23:27
+(epstopdf)                    size: 8030 bytes
+(epstopdf)             Output file: <Tarea1_04-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-02-11 23:38:21
+(epstopdf)                    size: 5975 bytes
+(epstopdf)             Command: <epstopdf --outfile=Tarea1_04-eps-converted-to.
+pdf Tarea1_04.eps>
+(epstopdf)             \includegraphics on input line 98.
+Package epstopdf Info: Output file is already uptodate.
+<Tarea1_04-eps-converted-to.pdf, id=66, 462.72874pt x 346.29375pt>
+File: Tarea1_04-eps-converted-to.pdf Graphic file (type pdf)
+<use Tarea1_04-eps-converted-to.pdf>
+Package pdftex.def Info: Tarea1_04-eps-converted-to.pdf  used on input line 98.
+
+(pdftex.def)             Requested size: 323.90791pt x 242.40396pt.
+ [4 <./Tarea1_04-eps-converted-to.pdf>] (Tarea1_05.py)
+Package epstopdf Info: Source file: <Tarea1_05.eps>
+(epstopdf)                    date: 2019-02-11 23:24:39
+(epstopdf)                    size: 9194 bytes
+(epstopdf)             Output file: <Tarea1_05-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-02-11 23:39:20
+(epstopdf)                    size: 7024 bytes
+(epstopdf)             Command: <epstopdf --outfile=Tarea1_05-eps-converted-to.
+pdf Tarea1_05.eps>
+(epstopdf)             \includegraphics on input line 111.
+Package epstopdf Info: Output file is already uptodate.
+<Tarea1_05-eps-converted-to.pdf, id=79, 462.72874pt x 346.29375pt>
+File: Tarea1_05-eps-converted-to.pdf Graphic file (type pdf)
+<use Tarea1_05-eps-converted-to.pdf>
+Package pdftex.def Info: Tarea1_05-eps-converted-to.pdf  used on input line 111
+.
+(pdftex.def)             Requested size: 323.90791pt x 242.40396pt.
+ [5 <./Tarea1_05-eps-converted-to.pdf>] (Tarea1_06.py)
+Package epstopdf Info: Source file: <Tarea1_06.eps>
+(epstopdf)                    date: 2019-02-11 23:25:12
+(epstopdf)                    size: 7235 bytes
+(epstopdf)             Output file: <Tarea1_06-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-02-11 23:39:22
+(epstopdf)                    size: 5935 bytes
+(epstopdf)             Command: <epstopdf --outfile=Tarea1_06-eps-converted-to.
+pdf Tarea1_06.eps>
+(epstopdf)             \includegraphics on input line 123.
+Package epstopdf Info: Output file is already uptodate.
+<Tarea1_06-eps-converted-to.pdf, id=94, 462.72874pt x 346.29375pt>
+File: Tarea1_06-eps-converted-to.pdf Graphic file (type pdf)
+<use Tarea1_06-eps-converted-to.pdf>
+Package pdftex.def Info: Tarea1_06-eps-converted-to.pdf  used on input line 123
+.
+(pdftex.def)             Requested size: 323.90791pt x 242.40396pt.
+ [6 <./Tarea1_06-eps-converted-to.pdf>] (Tarea1_07.py)
+Package epstopdf Info: Source file: <Tarea1_07.eps>
+(epstopdf)                    date: 2019-02-11 23:25:38
+(epstopdf)                    size: 5826 bytes
+(epstopdf)             Output file: <Tarea1_07-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-02-11 23:39:24
+(epstopdf)                    size: 5325 bytes
+(epstopdf)             Command: <epstopdf --outfile=Tarea1_07-eps-converted-to.
+pdf Tarea1_07.eps>
+(epstopdf)             \includegraphics on input line 136.
+Package epstopdf Info: Output file is already uptodate.
+<Tarea1_07-eps-converted-to.pdf, id=108, 462.72874pt x 346.29375pt>
+File: Tarea1_07-eps-converted-to.pdf Graphic file (type pdf)
+<use Tarea1_07-eps-converted-to.pdf>
+Package pdftex.def Info: Tarea1_07-eps-converted-to.pdf  used on input line 136
+.
+(pdftex.def)             Requested size: 323.90791pt x 242.40396pt.
+ [7 <./Tarea1_07-eps-converted-to.pdf>] (Tarea1_08.py)
+Package epstopdf Info: Source file: <Tarea1_08.eps>
+(epstopdf)                    date: 2019-02-11 23:26:07
+(epstopdf)                    size: 7385 bytes
+(epstopdf)             Output file: <Tarea1_08-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-02-11 23:39:26
+(epstopdf)                    size: 5862 bytes
+(epstopdf)             Command: <epstopdf --outfile=Tarea1_08-eps-converted-to.
+pdf Tarea1_08.eps>
+(epstopdf)             \includegraphics on input line 148.
+Package epstopdf Info: Output file is already uptodate.
+<Tarea1_08-eps-converted-to.pdf, id=122, 462.72874pt x 346.29375pt>
+File: Tarea1_08-eps-converted-to.pdf Graphic file (type pdf)
+<use Tarea1_08-eps-converted-to.pdf>
+Package pdftex.def Info: Tarea1_08-eps-converted-to.pdf  used on input line 148
+.
+(pdftex.def)             Requested size: 323.90791pt x 242.40396pt.
+
+[8 <./Tarea1_08-eps-converted-to.pdf>] (Tarea1_09.py)
+Package epstopdf Info: Source file: <Tarea1_09.eps>
+(epstopdf)                    date: 2019-02-11 23:26:32
+(epstopdf)                    size: 13970 bytes
+(epstopdf)             Output file: <Tarea1_09-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-02-11 23:39:28
+(epstopdf)                    size: 8863 bytes
+(epstopdf)             Command: <epstopdf --outfile=Tarea1_09-eps-converted-to.
+pdf Tarea1_09.eps>
+(epstopdf)             \includegraphics on input line 160.
+Package epstopdf Info: Output file is already uptodate.
+<Tarea1_09-eps-converted-to.pdf, id=135, 462.72874pt x 346.29375pt>
+File: Tarea1_09-eps-converted-to.pdf Graphic file (type pdf)
+<use Tarea1_09-eps-converted-to.pdf>
+Package pdftex.def Info: Tarea1_09-eps-converted-to.pdf  used on input line 160
+.
+(pdftex.def)             Requested size: 323.90791pt x 242.40396pt.
+ [9 <./Tarea1_09-eps-converted-to.pdf>] (Tarea1_10.py)
+Package epstopdf Info: Source file: <Tarea1_10.eps>
+(epstopdf)                    date: 2019-02-11 23:27:02
+(epstopdf)                    size: 8104 bytes
+(epstopdf)             Output file: <Tarea1_10-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-02-11 23:40:29
+(epstopdf)                    size: 6000 bytes
+(epstopdf)             Command: <epstopdf --outfile=Tarea1_10-eps-converted-to.
+pdf Tarea1_10.eps>
+(epstopdf)             \includegraphics on input line 173.
+Package epstopdf Info: Output file is already uptodate.
+<Tarea1_10-eps-converted-to.pdf, id=152, 462.72874pt x 346.29375pt>
+File: Tarea1_10-eps-converted-to.pdf Graphic file (type pdf)
+<use Tarea1_10-eps-converted-to.pdf>
+Package pdftex.def Info: Tarea1_10-eps-converted-to.pdf  used on input line 173
+.
+(pdftex.def)             Requested size: 323.90791pt x 242.40396pt.
+ [10 <./Tarea1_10-eps-converted-to.pdf>]
+(Tarea1_11.py)
+Package epstopdf Info: Source file: <Tarea1_11.eps>
+(epstopdf)                    date: 2019-02-11 23:27:26
+(epstopdf)                    size: 7724 bytes
+(epstopdf)             Output file: <Tarea1_11-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-02-11 23:40:30
+(epstopdf)                    size: 5911 bytes
+(epstopdf)             Command: <epstopdf --outfile=Tarea1_11-eps-converted-to.
+pdf Tarea1_11.eps>
+(epstopdf)             \includegraphics on input line 185.
+Package epstopdf Info: Output file is already uptodate.
+<Tarea1_11-eps-converted-to.pdf, id=165, 462.72874pt x 346.29375pt>
+File: Tarea1_11-eps-converted-to.pdf Graphic file (type pdf)
+<use Tarea1_11-eps-converted-to.pdf>
+Package pdftex.def Info: Tarea1_11-eps-converted-to.pdf  used on input line 185
+.
+(pdftex.def)             Requested size: 323.90791pt x 242.40396pt.
+ [11 <./Tarea1_11-eps-converted-to.pdf>] (Tarea1_12.py)
+Package epstopdf Info: Source file: <Tarea1_12.eps>
+(epstopdf)                    date: 2019-02-11 23:27:55
+(epstopdf)                    size: 8017 bytes
+(epstopdf)             Output file: <Tarea1_12-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-02-11 23:40:32
+(epstopdf)                    size: 5936 bytes
+(epstopdf)             Command: <epstopdf --outfile=Tarea1_12-eps-converted-to.
+pdf Tarea1_12.eps>
+(epstopdf)             \includegraphics on input line 197.
+Package epstopdf Info: Output file is already uptodate.
+<Tarea1_12-eps-converted-to.pdf, id=178, 462.72874pt x 346.29375pt>
+File: Tarea1_12-eps-converted-to.pdf Graphic file (type pdf)
+<use Tarea1_12-eps-converted-to.pdf>
+Package pdftex.def Info: Tarea1_12-eps-converted-to.pdf  used on input line 197
+.
+(pdftex.def)             Requested size: 323.90791pt x 242.40396pt.
+ [12 <./Tarea1_12-eps-converted-to.pdf>] (Tarea_No1.bbl) [13] (Tarea_No1.aux
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+) ) 
+Here is how much of TeX's memory you used:
+ 6068 strings out of 492972
+ 84997 string characters out of 3124846
+ 401660 words of memory out of 3000000
+ 9810 multiletter control sequences out of 15000+200000
+ 9535 words of font info for 36 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,6n,40p,538b,1282s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Danielles/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb><C:/Users/Danielles/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Danielles/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Danielles/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/D
+anielles/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.
+pfb><C:/Users/Danielles/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr8.pfb><C:/Users/Danielles/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Tarea_No1.pdf (13 pages, 197697 bytes).
+PDF statistics:
+ 219 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+
