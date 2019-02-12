@@ -1,0 +1,210 @@
+\documentclass[10pt,a4paper,openany]{article}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{color}
+\usepackage[left=2cm,right=2cm,top=3cm,bottom=2cm]{geometry}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[spanish]{babel}
+
+\setlength{\parindent}{12pt}
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstset{ 
+	backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}; should come as last argument
+	basicstyle=\footnotesize,        % the size of the fonts that are used for the code
+	breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+	breaklines=true,                 % sets automatic line breaking
+	captionpos=b,                    % sets the caption-position to bottom
+	commentstyle=\color{mygreen},    % comment style
+	deletekeywords={...},            % if you want to delete keywords from the given language
+	escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+	extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+	firstnumber=01,                	 % start line enumeration with line 1000
+	frame=single,	                 % adds a frame around the code
+	keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+	keywordstyle=\color{blue},       % keyword style
+	language=Python,                 % the language of the code
+	morekeywords={*,...},            % if you want to add more keywords to the set
+	numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+	numbersep=5pt,                   % how far the line-numbers are from the code
+	numberstyle=\tiny\color{mygray}, % the style that is used for the line-numbers
+	rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+	showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+	showstringspaces=false,          % underline spaces within strings only
+	showtabs=false,                  % show tabs within strings adding particular underscores
+	stepnumber=1,                    % the step between two line-numbers. If it's 1, each line will be numbered
+	stringstyle=\color{mymauve},     % string literal style
+	tabsize=2,	                     % sets default tabsize to 2 spaces
+	title=\lstname                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+}
+
+\author{Dania Danielles Suarez Suarez}
+\title{Tarea No.1 Representación de redes a través de la teoría de grafos}
+\date{}
+
+\begin{document}
+	
+	\maketitle
+	
+	
+	\section{Grafo Simple No Dirigido Aciclico}
+	
+En la Dulcería "Dulce Amor", el organigrama que representa la estructura de la jerárquica de la empresa está compuesto por un nodo raíz el cual sería la Dirección, de la empresa de esta se derivan los departamentos de Producción, Contabilidad y Recursos Humanos; estos serían los nodos hijos y del departamento de Producción se desprende un nodo externo llamado grupo de trabajo \cite{Arbol} . 
+	\lstinputlisting[language=Python]{Tarea1_01.py}
+	\begin{center}
+		\includegraphics[scale=0.7]{Tarea1_01.eps}
+	\end{center}
+    \begin{center}
+    	Imagen 1:Grafo Simple No Dirigido Aciclico
+    \end{center}
+   
+    \newpage
+	\section{Grafo Simple No Dirigido Ciclico}
+	
+	Se tiene un grupo de ordenadores los cuales se quieren conectar entre ellos en una oficina, aquí los nodos serían las PC mientras los cables que la conectan sería una arista \cite{calderonmodelado}.
+	\lstinputlisting[language=Python]{Tarea1_02.py}
+	\begin{center}
+		\includegraphics[scale=0.7]{Tarea1_02.eps}
+	\end{center}
+    \begin{center}
+    	Imagen 2:Grafo Simple No Dirigido Ciclico
+    \end{center}
+	
+	\newpage
+	\section{Grafo Simple No Dirigido Reflexivo}
+	
+	En un partido de football los jugadores serían los nodos, los cuales los pases que se realizan entre ellos conformarían las aristas, el jugador X realiza un autopase antes de darle continuidad a la pelota \citep{martinez2007sistema}. 
+	\lstinputlisting[language=Python]{Tarea1_03.py}
+	\begin{center}
+		\includegraphics[scale=0.7]{Tarea1_03.eps}
+	\end{center}
+    \begin{center}
+    	Imagen 3:Grafo Simple No Dirigido Reflexivo
+    \end{center}
+	
+	\newpage
+	\section{Grafo Simple Dirigido Aciclico}
+	
+	Una colección de tareas que deben ordenarse con cierta secuencia, esta está sujeta a limitaciones dado que una tarea no puede realizarse antes que otras; tendría un vértice para cada tarea y un borde para cada restricción, la forma en que se puede ordenar es de manera topológica \citep{werlinger2018aplicacion}.
+	\lstinputlisting[language=Python]{Tarea1_04.py}
+	\begin{center}
+		\includegraphics[scale=0.7]{Tarea1_04.eps}
+	\end{center}
+    \begin{center}
+    	Imagen 4:Grafo Simple Dirigido Aciclico
+    \end{center}
+    
+	
+	\newpage
+	\section{Grafo Simple Dirigido Ciclico}
+	
+Una Empresa "X" que se dedica a comercializar productos de limpieza necesita hacer la distribución de la mercancía, para esto se requiere encontrar un recorrido que garantice que se recorrerá todos los nodos de la red de modo que se minimice la distancia total recorrida y al final de la distribución el método de transporte vuelva al origen \citep{rifon2009ordenes}.
+	\lstinputlisting[language=Python]{Tarea1_05.py}
+	\begin{center}
+		\includegraphics[scale=0.7]{Tarea1_05.eps}
+	\end{center}
+    \begin{center}
+    	Imagen 5:Grafo Simple Dirigido Ciclico
+    \end{center}
+	
+	\newpage
+	\section{Grafo Simple Dirigido Reflexivo}
+	
+	Sea el conjunto A = {x,  y,  z}. El grafo representa una relación binaria definida en A, puesto que los pares (x, z), (y, x) (y, y) constituyen un subconjunto de A x A\citep{New}.
+	\lstinputlisting[language=Python]{Tarea1_06.py}
+	\begin{center}
+		\includegraphics[scale=0.7]{Tarea1_06.eps}
+	\end{center}
+	\begin{center}
+		Imagen 6:Grafo Simple Dirigido Reflexivo
+	\end{center}
+	
+	
+	\newpage
+	\section{Multigrafo No Dirigido Aciclico}
+	
+	Un corredor sale desde su punto de partida pasando por varias paradas, al llegar a la primera parada hay dos alternativas de rutas para llegar al próximo destino, en este ejemplo las paradas constituyen los nodos mientras el recorrido entre los nodos son las aristas \citep{carrion2011analisis}.
+	\lstinputlisting[language=Python]{Tarea1_07.py}
+	\begin{center}
+		\includegraphics[scale=0.7]{Tarea1_07.eps}
+	\end{center}
+	\begin{center}
+		Imagen 7:Multigrafo No Dirigido Aciclico
+	\end{center}
+	
+	\newpage
+	\section{Multigrafo No Dirigido Ciclico}
+	
+	Las llamadas telefónicas es una aplicación en la vida práctica de los grafos dado que estas se pueden representan mediante una red; cada número telefónico sería un nodo y cada llamada sería una arista, esta sale desde el número de teléfono que hace la llamada hasta el número que la recibe \citep{Articulo1}.
+	\lstinputlisting[language=Python]{Tarea1_08.py}
+	\begin{center}
+		\includegraphics[scale=0.7]{Tarea1_08.eps}
+	\end{center}
+    \begin{center}
+    	Imagen 8: Multigrafo No Dirigido Ciclico
+    \end{center}
+	
+	\newpage
+	\section{Multigrafo No Dirigido Reflexivo}
+	
+	En el juego del Policías y Ladrones el laberinto que conforma este juego está representado con un grafo, donde las calles son las aristas donde se mueven los policías y los ladrones de vértice en vértice los cuales están ubicados en las intersecciones de las calles. Este juego se juega en grafos reflexivos, que son aquellos cuyos vértices tienen bucles, de esta forma, los jugadores pueden permanecer en el mismo vértice varias rondas seguidas y también permite que contenga aristas múltiples \citep{Tesis}.
+	\lstinputlisting[language=Python]{Tarea1_09.py}
+	\begin{center}
+		\includegraphics[scale=0.7]{Tarea1_09.eps}
+	\end{center}
+	\begin{center}
+		Imagen 9:Multigrafo No Dirigido Reflexivo 
+	\end{center}
+	
+	
+	\newpage
+	\section{Multigrafo Dirigido Aciclico}
+	
+	Se puede considerar una representación grafica de un mapa de carreteras en el cual una arista (con flecha de sentido) entre dos ciudades corresponde a un carril en una autopista entre las dos ciudades. Como a menudo hay autopistas de varios carriles entre pares de ciudades, esta representación origina un multígrafo \citep{lopez2015estructuras}.
+		\lstinputlisting[language=Python]{Tarea1_10.py}
+		\begin{center}
+			\includegraphics[scale=0.7]{Tarea1_10.eps}
+		\end{center}
+	    \begin{center}
+	    	Imagen 10:Multigrafo Dirigido Aciclico 
+	    \end{center}
+    
+	\newpage
+	\section{Multigrafo Dirigido Ciclico}
+	
+	Para modelar las posibles conexiones de vuelo ofrecidas por una aerolínea se tendría un multígrafo dirigido, donde cada nodo es una localidad y donde pares de aristas paralelas conectan estas localidades, según un vuelo es hacia o desde una localidad a la otra \citep{sagula2011algoritmo}.
+		\lstinputlisting[language=Python]{Tarea1_11.py}
+		\begin{center}
+			\includegraphics[scale=0.7]{Tarea1_11.eps}
+		\end{center}
+	     \begin{center}
+	    	Imagen 11:Multigrafo Dirigido Ciclico
+	    \end{center}
+	
+	\newpage
+	\section{Multigrafo Dirigido Reflexivo}
+Una ruta de camión empieza su recorrido en la mañana donde tiene dos alternativas de rutas para comenzar, cuando llega al final del recorrido descarga al personal y comienza nuevamente su recorrido en ese mismo lugar con personal que se encuentre en esa parada. Los nodos aquí serían las paradas y las aristas las calles que unen cada parada \citep{olivos2009algoritmos}.
+	
+	\lstinputlisting[language=Python]{Tarea1_12.py}
+	\begin{center}
+		\includegraphics[scale=0.7]{Tarea1_12.eps}
+	\end{center}
+     \begin{center}
+    	Imagen 12:Multigrafo Dirigido Reflexivo
+    \end{center}
+    
+	
+	
+	
+	
+    \newpage
+	\bibliography{Bibliografia_T1}
+	\bibliographystyle{plainnat}
+\end{document}
