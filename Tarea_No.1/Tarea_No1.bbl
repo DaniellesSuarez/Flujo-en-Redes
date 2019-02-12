@@ -1,0 +1,71 @@
+\begin{thebibliography}{12}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Calderon et~al.()Calderon, Perez, Canas, Arias, and
+  Escudero]{calderonmodelado}
+Armando de Jesus~Ruiz Calderon, Sofia~Barron Perez, Abel~Gonzalez Canas, Daniel
+  Roberto Del~Toro Arias, and Argel~Frias Escudero.
+\newblock Modelado de grafos en la red.
+
+\bibitem[CARRION(2011)]{carrion2011analisis}
+ESTER~MARTOS CARRION.
+\newblock \emph{Analisis sobre las nuevas formas de comunicacion a traves de
+  las comunidades virtuales o redes sociales}.
+\newblock PhD thesis, 2011.
+
+\bibitem[Lopez(2015)]{lopez2015estructuras}
+Maria del Carmen~Somoza Lopez.
+\newblock \emph{Estructuras metricas en grafos}.
+\newblock PhD thesis, Universidade de Vigo, 2015.
+
+\bibitem[Martinez et~al.(2007)Martinez, Ferreira, and
+  Garcia]{martinez2007sistema}
+Natalia Martinez, Gheisa Ferreira, and Zoila~Zenaida Garcia.
+\newblock Sistema de ensenanza/aprendizaje inteligente para grafos.
+\newblock 2007.
+
+\bibitem[Olivos~Iparraguirre(2009)]{olivos2009algoritmos}
+Johani Olivos~Iparraguirre.
+\newblock Algoritmos para caminos minimos.
+\newblock 2009.
+
+\bibitem[Perles()]{Arbol}
+Jorge J~Frias Perles.
+\newblock Grafos:las redes que mueven el mundo.
+
+\bibitem[RAMIREZ()]{Articulo1}
+CAROLINA RAMIREZ.
+\newblock Aplicaciones de grafos.
+
+\bibitem[Rifon~Sanchez(2009)]{rifon2009ordenes}
+Antonio Rifon~Sanchez.
+\newblock Los ordenes semanticos.
+\newblock 2009.
+
+\bibitem[Rollon()]{Tesis}
+Blanca Maria~Pozuelo Rollon.
+\newblock Juego de policias y ladrones en grafos.
+
+\bibitem[SAGULA and TESEYRA(2011)]{sagula2011algoritmo}
+Jorge~E SAGULA and Rene~J TESEYRA.
+\newblock Algoritmo de busqueda de rutas con preferencias.
+\newblock 2011.
+
+\bibitem[Vitoriano()]{New}
+Andres Ramos Pedro Linares Pedro Sanchez Angel Sarabia, Begona Vitoriano.
+\newblock Teoria de grafos o redes.
+
+
+\bibitem[Werlinger and Caceres(2018)]{werlinger2018aplicacion}
+Fabiola Werlinger and Dante~D Caceres.
+\newblock Aplicacion de grafos aciclicos dirigidos en la evaluacion de un set
+  minimo de ajuste de confusores: un complemento al modelamiento estadistico en
+  estudios epidemiologicos observacionales.
+\newblock \emph{Revista medica de Chile}, 146\penalty0 (7):\penalty0 907--913,
+  2018.
+
+\end{thebibliography}
