@@ -1,0 +1,171 @@
+\documentclass[10pt,a4paper,openany]{article}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{color}
+\usepackage[left=2cm,right=2cm,top=3cm,bottom=2cm]{geometry}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[spanish]{babel}
+\usepackage{caption}
+\usepackage{url}
+
+
+\setlength{\parindent}{12pt}
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstset{ 
+	backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}; should come as last argument
+	basicstyle=\footnotesize,        % the size of the fonts that are used for the code
+	breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+	breaklines=true,                 % sets automatic line breaking
+	captionpos=b,                    % sets the caption-position to bottom
+	commentstyle=\color{mygreen},    % comment style
+	deletekeywords={...},            % if you want to delete keywords from the given language
+	escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+	extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+	firstnumber=01,                	 % start line enumeration with line 1000
+	frame=single,	                 % adds a frame around the code
+	keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+	keywordstyle=\color{blue},       % keyword style
+	language=Python,                 % the language of the code
+	morekeywords={*,...},            % if you want to add more keywords to the set
+	numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+	numbersep=5pt,                   % how far the line-numbers are from the code
+	numberstyle=\tiny\color{mygray}, % the style that is used for the line-numbers
+	rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+	showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+	showstringspaces=false,          % underline spaces within strings only
+	showtabs=false,                  % show tabs within strings adding particular underscores
+	stepnumber=1,                    % the step between two line-numbers. If it's 1, each line will be numbered
+	stringstyle=\color{mymauve},     % string literal style
+	tabsize=2,	                     % sets default tabsize to 2 spaces
+	title=\lstname                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+}
+\title{Tarea No.2}
+\author{5272}
+\date{}
+
+
+\begin{document}
+	\maketitle
+	
+	
+	
+	\section{Circular Layout}
+	
+	Este algoritmo de diseño como su nombre lo indica puede ser útil cuando se desea estructurar la información con un patrón circular y se trata de disminuir los cruces entre los vértices \citep{belviranli2009circular}; es aplicado en redes sociales y administración de redes, con este se puede realizar estructuras de grupos y árbol dentro de una red \citep{gansner2006improved}.
+	\lstinputlisting[language=Python]{Tarea2_01.py}
+		\begin{center}
+		\includegraphics[scale=0.7]{Tarea2_01.eps}	
+		\captionof{figure}{Circular Layout}
+	    \end{center}
+   
+	\newpage
+	\section{Kamada Kawai Layout}	
+	
+	Este algoritmo es para grafos conectados y no dirigidos; se relaciona con un sistema de resorte dinámico donde la fuerza entre dos vértices es inversamente proporcional al cuadrado de la distancia entre estos ,es decir, los vértices que tienen los resortes más fuertes se encuentran más cerca. \citep{kamada1989algorithm}.
+	\lstinputlisting[language=Python]{Tarea2_02.py}
+	\begin{center}
+		\includegraphics[scale=0.7]{Tarea2_02.eps}	
+		\captionof{figure}{Kamada Kawai Layout}
+	\end{center}
+	
+	\newpage
+	\section{Random Layout}
+	
+	Este diseño se utiliza para cualquier tipo de grafo conectado y no conectado, planos y no planos.Se caracteriza por darle un orden aleatorio a los nodos de un grafo y tiene como limitación que para asegurarse de que los nodos no se superpongan con los margenes de la región del diseño,este algoritmo calcula las coordenadas al azar dentro de una región con las dimensiones más pequeñas qu la región del diseño \citep{RogueWave}. 
+	\lstinputlisting[language=Python]{Tarea2_03.py}
+	\begin{center}
+		\includegraphics[scale=0.7]{Tarea2_03.eps}	
+		\captionof{figure}{Random Layout}
+	\end{center}
+    \newpage
+    \lstinputlisting[language=Python]{Tarea2_10.py}
+    \begin{center}
+    	\includegraphics[scale=0.7]{Tarea2_10.eps}	
+    	\captionof{figure}{Random Layout}
+    \end{center}
+	
+	\newpage
+	\section{ForceAtlas2 Layout}
+	
+	En este diseño los nodos se rechazan entre sí,mientras que los bordes lo atraen como resortes,la posición de cada nodo depende de los otros nodos \cite{journal.pone.0098679}.
+	\lstinputlisting[language=Python]{Tarea2_4.py}
+	\begin{center}
+		\includegraphics[scale=0.7]{Tarea2_4.eps}	
+		\captionof{figure}{ForceAtlas2 Layout}
+	\end{center}
+
+	
+	\newpage
+	\section{Shell Layout}
+	
+	Este diseño posiciona los nodos en círculos concéntricos \citep{networkx}, basandose en la distancia entre el nodo central al resto de los nodos,por lo que los nodos se distribuyen de forma circular;este tiene como ventaja que su diseño hace que sea un grafo visualmente de fácil entender \citep{cherven2015mastering} 
+		\lstinputlisting[language=Python]{Tarea2_05.py}
+	\begin{center}
+		\includegraphics[scale=0.7]{Tarea2_05.eps}	
+		\captionof{figure}{Shell Layout}
+	\end{center}
+	
+	\newpage
+	\section{Kamada kawai Layout}
+	
+	Este algoritmo es dirigido por la fuerza entre dos nodos cualesquiera,donde los mismo se representan por anillos de acero y las aristas son los resortes entre ellos.Las fuerzas de atracción y de repulsión son análogas a la fuerza de resorte,donde la suma de las fuerzas determinan en que dirección se debe mover un nodo \cite{fruchterman1991graph}; es utilizado en grafos no dirigidos muy grandes y garantiza que los nodos cercanos sean ubicados en la misma vencidad y los lejanos se ubican uno lejos de otros.
+		\lstinputlisting[language=Python]{Tarea2_06.py}
+		\begin{center}
+			\includegraphics[scale=0.7]{Tarea2_06.eps}	
+			\captionof{figure}{Kamada kawai Layout}
+		\end{center}
+	
+	\newpage
+	\section{Spring Layout}
+	
+	En este diseño los nodos serían los cuerpos y los bordes los resortes que conectan a estos, los mismo son los que proporcionan fuerzas entre los nodos; estos se mueven de acuerdo con las fuerzas que se ejercen hasta alcanzar la mínima energía local \cite{huck2014posicionamiento}.
+		\lstinputlisting[language=Python]{Tarea2_07.py}
+	\begin{center}
+		\includegraphics[scale=0.7]{Tarea2_07.eps}	
+		\captionof{figure}{Spring Layout}
+	\end{center}
+    \newpage
+    	\lstinputlisting[language=Python]{Tarea2_11.py}
+    \begin{center}
+    	\includegraphics[scale=0.7]{Tarea2_11.eps}	
+    	\captionof{figure}{Spring Layout}
+    \end{center}
+
+	 \newpage
+	\section{Spectral Layout}
+	
+	Este diseño utiliza los vectores de matrices relacionadas con gráficas como las de adyacencia, tiene como ventaja la capacidad de calcular diseños óptimos y presentar un tiempo de calculo muy rápido \citep{brandes2007dynamic}.
+	\lstinputlisting[language=Python]{Tarea2_08.py}
+	    \begin{center}
+		\includegraphics[scale=0.8]{Tarea2_08.eps}	
+		\captionof{figure}{Spectral Layout}
+	    \end{center}
+    
+	\newpage
+	\section{Bipartite Layout}
+	
+	Estos grafos representan las relaciones entre dos conjuntos y permiten la exploración paso a paso a gran escala.Los nodos de un mismo conjunto no se encuentran conectados entre sí \citep{ito2010drawing}.
+		\lstinputlisting[language=Python]{Tarea2_09.py}
+			\begin{center}
+			\includegraphics[scale=0.7]{Tarea2_09.eps}	
+			\captionof{figure}{Bipartite Layout}
+		\end{center}
+	    \newpage
+	    \lstinputlisting[language=Python]{Tarea2_12.py}
+	    \begin{center}
+	    	\includegraphics[scale=0.7]{Tarea2_12.eps}	
+	    	\captionof{figure}{Bipartite Layout}
+	    \end{center}
+			
+	\newpage
+	\bibliography{Bibliografia}
+	\bibliographystyle{plainnat}
+\end{document}
