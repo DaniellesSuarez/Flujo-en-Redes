@@ -1,0 +1,150 @@
+\documentclass[10pt,a4paper,openany]{article}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{color}
+\usepackage[left=2cm,right=2cm,top=3cm,bottom=2cm]{geometry}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[spanish]{babel}
+\usepackage{caption}
+\usepackage{url}
+\usepackage{fancyvrb}
+\usepackage[dvipsnames]{xcolor}
+
+
+\setlength{\parindent}{12pt}
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstset{ 
+	backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}; should come as last argument
+	basicstyle=\footnotesize,        % the size of the fonts that are used for the code
+	breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+	breaklines=true,                 % sets automatic line breaking
+	captionpos=b,                    % sets the caption-position to bottom
+	commentstyle=\color{mygreen},    % comment style
+	deletekeywords={...},            % if you want to delete keywords from the given language
+	escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+	extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+	firstnumber=01,                	 % start line enumeration with line 1000
+	frame=single,	                 % adds a frame around the code
+	keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+	keywordstyle=\color{blue},       % keyword style
+	language=Python,                 % the language of the code
+	morekeywords={*,...},            % if you want to add more keywords to the set
+	numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+	numbersep=5pt,                   % how far the line-numbers are from the code
+	numberstyle=\tiny\color{mygray}, % the style that is used for the line-numbers
+	rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+	showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+	showstringspaces=false,          % underline spaces within strings only
+	showtabs=false,                  % show tabs within strings adding particular underscores
+	stepnumber=1,                    % the step between two line-numbers. If it's 1, each line will be numbered
+	stringstyle=\color{mymauve},     % string literal style
+	tabsize=2,	                     % sets default tabsize to 2 spaces
+	title=\lstname                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+}
+
+\RecustomVerbatimCommand{\VerbatimInput}{VerbatimInput}%
+{fontsize=\footnotesize,
+	%
+	frame=lines,  % top and bottom rule only
+	framesep=2em, % separation between frame and text
+	rulecolor=\color{Gray},
+	%
+	label=\fbox{\color{Black}ANOVA.txt},
+	labelposition=topline,
+	%
+	commandchars=\|\(\), % escape character and argument delimiters for
+	% commands within the verbatim
+	commentchar=*        % comment character
+}
+\title{Tarea 4}
+\author{5272}
+\date{}
+
+
+\begin{document}
+	\maketitle
+
+    \section{Introducción}
+    
+    En el presente trabajo se utilizaron tres diferentes tipos de generadores de grafos en este caso los seleccionados fueron: Grafo Estrella, Grafo Paleta, Grafo Rueda; para cada uno se seleccionó una base logarítmica 2 para crear cuatro grafos de orden 4, 8, 16, 32. Los pesos de cada arco se distribuyen normalmente con media 8 y una desviación estándar de 0.3. Se utilizaron además los algoritmos de flujo máximo: Algoritmo Dinitz, Empuje de Preflujo y Ruta de Aumento más Corta.
+	
+	\section{Generadores de Grafos}
+	Los generadores de grafos utilizados se encuentran a continuación:
+	\subsection*{Grafo Estrella}
+	
+	Este grafo es de orden n, se conoce también como n estrella. Devuelve un grado con $n+1$ como nodo central, conectado a n nodos externos \citep{day1993unidirectional}.
+	
+	\subsection*{Grafo Paleta}
+	
+	Este grafo consiste es un subgrafo completo con m vértices y otro subgrafo con n vértices conectados por medio de un puente \citep{boulet2008lollipop}.
+	
+	\subsection*{Grafo Rueda}
+	
+	Este grafo también es llamado n ruedas, está formado por la conexión de un solo vértice universal a todos los vértices de un ciclo es decir, contiene un ciclo de orden $n-1$ para el cual cada vértice del ciclo esta conectado a otro vértice \citep{sabar2009roulette}.
+	
+	\section{Algoritmos de Flujo Máximo}
+		Los algoritmos de flujo máximo utilizados se encuentran a continuación:
+	\subsection*{Algoritmo Dinitz}
+	
+	Es uno de los algoritmos más rápidos y más fácil de implementar, también se le conoce como algoritmo Dinic. Este algoritmo polinomial calcula el flujo máximo, donde regresa una red residual resultante \citep{even2011graph}. 
+	
+	\subsection*{Empuje de Preflujo}
+	
+	Este tipo de algoritmo maneja un preflujo, es decir, no se satisface necesariamente las condiciones de conservación de flujo, por lo que es posible que un vértice reciba más flujo que el que distribuye. Los algoritmos de preflujo se pueden mejorar significativamente al incorporar condiciones para decidir que nodos elegir, las cuales tienden a ser heurísticas \citep{kumar2003incremental}.
+	
+    \subsection*{Ruta de Aumento más Corta}
+    
+    Encuentra un flujo máximo utilizando el algoritmo de ruta de aumento más corta, regresa una red residual resultante de calcular el flujo máximo \citep{johnson1977efficient}.
+	
+	
+	\section{Resultados Computacionales}
+	 
+	Se realiza una evaluación de los datos utilizando herramientas estadísticas como los Boxplot que se describen a continuación. El primer análisis realizado es del tiempo contra los algoritmos de flujo máximo $(Figura 1)$ donde se puede decir que los algoritmos Dinitz, Preflow Push y Shortest tiene una media de  0.005532, 0.009594 y 0.006333 respectivamente y una desviación de 0.005054, 0.007593 y 0.004624 para cada uno; el segundo Boxplot $(Figura 2)$ es tiempo contra densidad donde la media está en un rango entre $0.06-1.17$ con tiempos entre $0.008680-0.003434$; para el tercer Boxplot $(Figura 3)$ la media tiene un comportamiento para cada algoritmo de la siguiente forma: Dinitz:  0.009041, Preflow Push: 0.004764 y Shortest:0.009435 y una desviación  Dinitz: 0.008347, Preflow Push: 0.003241 y Shortest: 0.006466; por último se realizó el Boxplot de tiempo contra orden $(Figura 4)$ quedando de la siguiente forma: para los algoritmos de orden 4 la media y la desviación tienen un valor de 0.002647 y 0.001058 respectivamente, para los algoritmos de orden 8 un valor de 0.004634 para la media y 0.001991 para la desviación, para orden 16 valores de  0.008008 y 0.003711 respectivamente y por último para orden 32 una media de 0.015339 y una desviación  de 0.008589.
+	 
+	\begin{center}
+		\includegraphics[scale=0.7]{box_algoritmo}	
+		\captionof{figure}{Boxplot Algoritmo}
+    \end{center}
+\newpage
+    \begin{center}
+    	\includegraphics[scale=0.7]{box_densidad}	
+    	\captionof{figure}{Boxplot Densidad}
+    \end{center}
+    
+     \begin{center}
+    	\includegraphics[scale=0.7]{box_generador}	
+    	\captionof{figure}{Boxplot Generador}
+    \end{center}
+    
+    \begin{center}
+    	\includegraphics[scale=0.7]{box_orden}	
+    	\captionof{figure}{Boxplot Orden}
+    \end{center}
+
+
+
+Se realiza además un análisis con un ANOVA para ver si todos los factores estudiados se encuentran relacionados entres sí, lo que se puede decir que como el $valor-p$ es pequeño entonces existe vínculos entre dichos factores.
+    \VerbatimInput{ANOVA.txt}
+\newpage
+Se realiza una matriz de correlación $(Figura 5)$ donde se puede comprobar que existe una relación entre factores como se mencionó anteriormente.
+\begin{center}
+	\includegraphics[scale=0.7]{matriz_correlacion}	
+	\captionof{figure}{Matriz de Correlación}
+\end{center}    
+    
+\newpage
+   	\section{Fragmento de Código}
+   \lstinputlisting[language=Python]{new.py}
+     	
+	\newpage
+	\bibliography{Bibliografia}
+	\bibliographystyle{plainnat}
+\end{document}
